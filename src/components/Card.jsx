@@ -1,18 +1,18 @@
-function Card(){
+function Card(props){
     return (
         <div className="card">
-            <img src="" alt="" />
+            <img src={props.imageUrl} alt="image-site" />
             <div className="card--location">
                 <img src="" alt="" className="location--image"/>
-                <span></span>
-                <span className="gray"></span>
+                <span>{props.location}</span>
+                <span className="gray">{props.googleMapsUrl}</span>
             </div>
-            <h3 className="card--title"></h3>
+            <h3 className="card--title">{props.title}</h3>
             <div className="card--dates">
-                <p></p>
-                <span></span>
+                <p>{props.startDate}</p>
+                <span>{props.endDate}</span>
             </div>
-            <p className="card--description"></p>
+            <p className="card--description">{props.description}</p>
         </div>
     )
 }
