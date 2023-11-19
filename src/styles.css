@@ -3,5 +3,23 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .main-div{
-    
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+nav{
+    background-color: #FF5B22;
+    height: 70ox;
+    display: flex;
+    padding: 20px 36px;
+
+}
+.nav--logo{
+    width: 50px;
+
+}
+.title--text{
+    color: white;
 }
