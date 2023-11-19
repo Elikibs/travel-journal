@@ -1,6 +1,10 @@
 function Navbar(){
     return (
-        <div>Navbar here</div>
+        <div>
+            <nav>
+                <h3>My travel journal</h3>
+            </nav>
+        </div>
     )
 }
 
