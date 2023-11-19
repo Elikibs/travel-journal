@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -9,6 +10,7 @@ export default [
         imageUrl: "https://unsplash.com/photos/a-large-snow-covered-mountain-towering-over-a-city-UVWJwEroPmo"
     },
     {
+        id: 2,
         title: "Cape Town",
         location: "South Africa",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
