@@ -12,7 +12,7 @@
  - Run ==npm run dev== to launch the app on localhost port
  
  ### Screenshot
- ![Preview of the airbnb webapp](/images/travel-journal-screenshot.png)
+ ![Preview of the airbnb webapp](./public/images/travel-journal-screenshot.png)
 
  ## Functionality
  The "main.jsx" renders the "app component" where the app component is responsible for rendering the "navbar and card sections". The app component "App.jsx" being the parent component to both the Nav and Card components, can have properties (props) that can be passed to its child components. The use of props; 
@@ -38,5 +38,5 @@ return (
   )
 ```
 
-The stying for the app are done in the "styles.css" file.
+The styling for the app is done in the "styles.css" file.
 
