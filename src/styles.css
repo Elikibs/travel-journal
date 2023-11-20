@@ -22,8 +22,9 @@ body{
 
 nav{
     background-color: #FF5B22;
-    height: 70ox;
+    height: 80px;
     display: flex;
+    align-items: center;
     padding: 20px 36px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -31,6 +32,9 @@ nav{
 .nav--logo{
     width: 50px;
 
+}
+.nav--div{
+    padding: 5px;
 }
 .title--text{
     color: white;
