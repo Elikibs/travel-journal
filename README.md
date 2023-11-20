@@ -8,12 +8,8 @@
  To get the web app running; 
  - Fork/Clone/Download the project
  - changed directory to this particular project directory
- - Run ```markdown
- npm install
- ``` to install dependencies
- - Run ```console
- npm run dev
- ``` to launch the app on localhost port
+ - Run `npm install` to install dependencies
+ - Run `npm run dev` to launch the app on localhost port
  
  ### Screenshot
  ![Preview of the airbnb webapp](./public/images/travel-journal-screenshot.png)
