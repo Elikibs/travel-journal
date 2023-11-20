@@ -1,5 +1,5 @@
 # Travel Journal
- This an overview of an airbnb website experience built using React. It highlights several services and products offered and their descriptions.
+ This an overview of a travel journal experince built using React. It displays the site image, the location, the description and the planned dates for the visit.
 
  ## Author
  Developed by Elisha Kibet
@@ -15,5 +15,7 @@
  ![Preview of the airbnb webapp](/images/travel-journal-screenshot.png)
 
  ## Functionality
- The "main.jsx" renders the "app component" where the app component is responsible for rendering the "navbar, hero and card sections". The App component being the parent component to; navbar, hero and card components, it posses properties, better still "props", that are, for this case, passed to the card component. The props are being obtained as array of data from "data.js" file.
+ The "main.jsx" renders the "app component" where the app component is responsible for rendering the "navbar, hero and card sections". The App component being the parent component to; navbar and card components, it posses properties, better still "props", that are, for this case, passed to the card component. The props are being obtained as array of data from "data.js" file.
 "props' are helpful as they easen the usage of dynamic data and facilitates reusability concepts.
+The stying for the app are done in the "styles.css" file.
+
