@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .main-div{
-    width: 50%;
+    width: 55%;
     margin: auto;
     margin-top: 10px;
 }
@@ -13,7 +13,8 @@ nav{
     height: 70ox;
     display: flex;
     padding: 20px 36px;
-
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .nav--logo{
     width: 50px;
@@ -21,4 +22,29 @@ nav{
 }
 .title--text{
     color: white;
+}
+.card{
+    display: flex;
+    padding: 25px;
+}
+.card--location{
+    display: flex;
+    align-items: center;
+}
+.card--dates{
+    font-weight: bold;
+}
+.site--image{
+    height: 280px;
+    width: 250px;
+    
+}
+.location--image{
+    height: 15px;
+}
+.details-container{
+    margin-left: 15px;
+}
+.gray {
+    color: #918E9B;
 }
