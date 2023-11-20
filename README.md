@@ -15,7 +15,28 @@
  ![Preview of the airbnb webapp](/images/travel-journal-screenshot.png)
 
  ## Functionality
- The "main.jsx" renders the "app component" where the app component is responsible for rendering the "navbar, hero and card sections". The App component being the parent component to; navbar and card components, it posses properties, better still "props", that are, for this case, passed to the card component. The props are being obtained as array of data from "data.js" file.
-"props' are helpful as they easen the usage of dynamic data and facilitates reusability concepts.
+ The "main.jsx" renders the "app component" where the app component is responsible for rendering the "navbar and card sections". The app component "App.jsx" being the parent component to both the Nav and Card components, can have properties (props) that can be passed to its child components. The use of props; 
+ - facilitates the aspect of resusability of components in that we can build one card component and pass in props to renders multiple instances of the card.
+ - Enable use of dynamic data; in our project we obtain data fro "data.js" file, which are array of objects, hence the data can act as props to specfic components.
+
+ For this project we export the data from "data.jsx" in our app component and then use map() method to iterate on individual array elements. The individual array elements are "objects", and we therefore pass in the "objects" values as props in our card component.
+
+```javascript
+ const cardData = dataFile.map(function(data){
+    return <Card 
+              key={data.id}
+              {...data}
+    />
+```
+We store it in "cardData" variable and is rendered as jsx in our app return segment
+```javascript
+return (
+    <div className="main-div">
+      <Navbar />
+      {cardData}
+    </div>
+  )
+```
+
 The stying for the app are done in the "styles.css" file.
 
