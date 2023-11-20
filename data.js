@@ -21,7 +21,7 @@ export default [
     },
     {
         id: 3,
-        title: "Miacle Garden",
+        title: "Miracle Garden",
         location: "Dubai",
         googleMapsUrl: "https://www.google.com/maps/d/u/0/viewer?mid=1Dw7gQO4lJxE_prz66B5NGH-K7gQ&hl=en_US&ll=25.059787999999998%2C55.24466499999999&z=17",
         startDate: "1 Feb, 2024",
